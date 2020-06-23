@@ -7,8 +7,8 @@ const App = () => {
 	const [data, setData] = useState(["42.8765615", "74.6070079"])
 	return (
 		<div className={Styles.app}>
-			<Main data={data} />
 			<Sidebar passData={setData} />
+			<Main data={data} />
 		</div>
 	)
 }
